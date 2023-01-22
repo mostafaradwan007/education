@@ -7,15 +7,15 @@ li.forEach(function (el) {
     this.classList.add("active");
   };
 });
-let i = document.querySelector(".ac").onclick=function () {
-  document.querySelector("ul.one").style.display = "flex";
-  document.querySelector("ul.one").style.direction = "column";
-  document.querySelector("ul.one").style.position = "absolute";
-  document.querySelector("ul.one").style.top = "100%";
-  document.querySelector("ul.one").style.left = "0";
-  document.querySelector("ul.one").style.width = "100%";
-};
-console.log(i)
+// let i = document.querySelector(".ac").onclick=function () {
+//   document.querySelector("ul.one").style.display = "flex";
+//   document.querySelector("ul.one").style.direction = "column";
+//   document.querySelector("ul.one").style.position = "absolute";
+//   document.querySelector("ul.one").style.top = "100%";
+//   document.querySelector("ul.one").style.left = "0";
+//   document.querySelector("ul.one").style.width = "100%";
+// };
+// console.log(i)
 // document.querySelector("button").onclick=function() {
 //   document.getElementById("demo").style.direction = "rtl";
   
