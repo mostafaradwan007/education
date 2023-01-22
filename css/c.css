@@ -831,6 +831,10 @@ color: #777;
   top: 50%;
   transform: translateY(-50%);
   left: 25px;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
 }
 .subscribe form input[type="email"] {
   border: 1px solid white;
@@ -992,5 +996,5 @@ color: #777;
    width: 100px;
   }
 }
-.co
+
 /* End Footer */
